@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.lawyee.ceshi.MainActivity">
+
+   <Button
+       android:text="1222"
+       android:id="@+id/btn_submit"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/tv_emoji"
+       android:layout_width="match_parent"
+       android:hint="展示表情"
+       android:layout_height="wrap_content" />
+   <EditText
+       android:id="@+id/et_input_emoji"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+</LinearLayout>
